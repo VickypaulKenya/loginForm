@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>User Authentication</h1>
+    <div class="btnSection">
+    <button id="showLogin">Login</button>
+    <button id="showSignup">Sign Up</button>
+    </div>
+    <div class="form-container">
+        <form id="loginForm" class="hidden">
+            <h2>Login</h2>
+            <label for="loginUsername">Username:</label>
+            <input type="text" id="loginUsername" name="username" required>
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+        <form id="signupForm" class="hidden">
+            <h2>Sign Up</h2>
+            <label for="signupUsername">Username:</label>
+            <input type="text" id="signupUsername" name="username" required>
+            <label for="signupEmail">Email:</label>
+            <input type="email" id="signupEmail" name="email" required>
+            <label for="signupPassword">Password:</label>
+            <input type="password" id="signupPassword" name="password" required>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
